@@ -7,6 +7,12 @@ The Citi Bike Dashboard is hosted on the following tableau public account.
 ### Data Exploration
 
 In this exploration, the months December, January, and February are considered winter months. Bike logs during the 2015-2016 winter are selected from the City Bike Trip History and aggregated into a new dataset with an inner join. 
+### Dynamic Map
+The first visualization on the dashboard is a dynamic map that shows how each station's popularity changes over time. The map is overlaid with zip code data and contains a dropdown option at the top that allows users to filter by month and year. This was accomplished by using Tableau public.
+
+### Bar Charts
+The top two bar charts represent the top 10 stations to start and end at, while the bottom graphs represent the bottom 10 stations. Stations popularity was ranked by the number of bke records at that station (i.e the most popular station would have the highest record of bike logs) 
+
 
 ### Discoveries
 According to the line graph, the most popular times to ride a bike are during the mornings and evenings. The peak hours are  8 - 9 AM and 5 - 6 PM because  people are commuting to work or class and then returning home in the evening around those time frames . 
